@@ -26,5 +26,6 @@ clickElement.addEventListener('click', function (e) {
         clickElement.style.backgroundColor = 'green';
         paragraphCenter.textContent = 'if positions are odd and even body is green';
     }
+
 });
 
