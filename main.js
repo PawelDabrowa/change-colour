@@ -13,7 +13,6 @@ clickElement.addEventListener('click', function (e) {
     let x = e.clientX;
     let y = e.clientY;
 
-    console.log('dziala');
     textCenter.textContent = x + " | " + y;
 
     if ((x % 2) !== 1 && (y % 2) !== 1) {
